@@ -1,1 +1,2 @@
-/home/andri/.ipython/profile_default/ipython_config.py
+c = get_config()
+c.InteractiveShell.ast_node_interactivity = "all"
