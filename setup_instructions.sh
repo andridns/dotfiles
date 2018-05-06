@@ -19,11 +19,7 @@ sudo apt update
 sudo apt install -y git automake build-essential pkg-config libevent-dev libncurses5-dev
 
 # install python 3.6
-# sudo add-apt-repository ppa:jonathonf/python-3.6
-sudo apt-get install software-properties-common
-sudo add-apt-repository ppa:deadsnakes/ppa
-sudo apt-get update
-sudo apt-get install python3.6
+sudo add-apt-repository ppa:jonathonf/python-3.6
 # end add-apt
 
 # next
@@ -107,6 +103,7 @@ vim +PluginInstall +qall
 echo ". ~/.bash_prompt.sh" >> ~/.bashrc
 source ~/.bashrc
 # end bash prompt update
+
 
 
 
