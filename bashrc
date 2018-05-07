@@ -117,12 +117,15 @@ if ! shopt -oq posix; then
 fi
 
 export PATH=/usr/local/cuda-9.0/bin${PATH:+:${PATH}}
-export LD_LIBRARY_PATH=${LD_LIBRARY_PATH:+${LD_LIBRARY_PATH}:}/usr/local/cuda/extras/CUPTI/lib64
+export LD_LIBRARY_PATH=/usr/local/cuda/lib64:${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 
+export CDPATH=~/symlinks
 export WORKON_HOME=$HOME/Envs
 export PROJECT_HOME=$HOME/Proj
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+export PYTHONPATH=$PYTHONPATH:$HOME/tensorflow/models/research:$HOME/tensorflow/models/research/slim
 
 alias mkproject='mkproject --python=/usr/bin/python3'
 
+. $HOME/.bash_prompt.sh
 source /usr/local/bin/virtualenvwrapper.sh
