@@ -105,6 +105,8 @@ source ~/.bashrc
 # end bash prompt update
 
 
+#install pip remotely using whl files
+#pip install tensorflow-gpu-1-4.1-cp36.whl --upgrade --no-index --find-links=./
 
 
 
