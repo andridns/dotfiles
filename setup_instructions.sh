@@ -100,13 +100,28 @@ vim +PluginInstall +qall
 
 # bash prompt update to include git branch and virtualenv info
 # first copy bash_prompt.txt to ~/.bash_prompt.sh
-echo ". ~/.bash_prompt.sh" >> ~/.bashrc
-source ~/.bashrc
+echo "export CDPATH=~/symlinks" >> ~/.bashrc
+echo "export WORKON_HOME=$HOME/Envs" >> ~/.bashrc
+echo "export PROJECT_HOME=$HOME/Proj" >> ~/.bashrc
+echo "export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3" >> ~/.bashrc
+echo "alias mkproject='mkproject --python=/usr/bin/python3'" >> ~/.bashrc
+echo ". $HOME/.bash_prompt.sh" >> ~/.bashrc
+echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.bashrc
+
+source $HOME/.bashrc
 # end bash prompt update
 
 
 #install pip remotely using whl files
 #pip install tensorflow-gpu-1-4.1-cp36.whl --upgrade --no-index --find-links=./
+#if pip broke
+#If you're not on Debian/Ubuntu and pip broke for you, try running:
+#python -m pip install --force-reinstall pip
+#if not force reinstall try
+#/usr/bin/env python3 -m pip install --user [module]
+
+
+
 
 
 

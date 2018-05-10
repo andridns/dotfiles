@@ -63,11 +63,6 @@ sudo mv protoc3/include/* /usr/local/include/
 sudo chown $USER /usr/local/bin/protoc 
 sudo chown -R $USER /usr/local/include/google
 cd tensorflow/models/research/
-cd
-workon konbini_detector
-pip install Cython
-pip install Cython pillow lxml matplotlib
-cd
 deactivate
 git clone https://github.com/cocodataset/cocoapi.git
 cd cocoapi/PythonAPI
@@ -79,19 +74,12 @@ cd cocoapi/PythonAPI/
 ls
 make
 cp -r pycocotools/ ~/tensorflow/models/research/
-cd
 cd tensorflow/models/research/
 protoc object_detection/protos/*.proto --python_out=.
-cd
-vi .bashrc
-source .bashrc
+
 cd tensorflow/models/research/
-python
 python object_detection/builders/model_builder_test.py 
-cd
-deactivate
-lsvirtualenv 
-tmux
+
 poweroff --help
 sudo poweroff
 sudo apt install docker.io
