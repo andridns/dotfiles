@@ -9,6 +9,6 @@ rm -rf ~/vim-monokai/
 # copy vimrc to home
 cp dotfiles/vimrc ~/.vimrc
 # instal vim plugins and run vim
-vim +PluginInstall +qall
+vi +PluginInstall +qall
 
 
