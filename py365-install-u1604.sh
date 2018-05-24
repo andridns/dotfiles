@@ -25,3 +25,7 @@ python3 --version
 pip3 --version
 
 rm ~/python.tar.tgz
+
+sudo apt-get -y install python-pip
+
+
