@@ -20,13 +20,9 @@ sudo make install
 cd ..
 sudo rm -rf Python-$PYTHON_VERSION
 
-alias pip=pip3
-
-pip install --upgrade pip
-
 python --version
 python3 --version
-pip --version
 pip3 --version
+pip --version
 
-
+rm ~/python.tar.tgz
