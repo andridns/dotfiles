@@ -1,8 +1,8 @@
 # installing libraries
 echo "Installing Jupyter Notebook..."
-pip install jupyter notebook
+sudo pip3 install jupyter notebook
 echo "Installing Jupyter Lab..."
-pip install jupyterlab
+sudo pip3 install jupyterlab
 # after installing jupyter notebook and jupyterlab
 echo "Generating jupyter and ipythong configs..."
 jupyter notebook --generate-config
