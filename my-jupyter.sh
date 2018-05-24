@@ -1,3 +1,4 @@
+#!/bin/bash
 # installing libraries
 echo "Installing Jupyter Notebook..."
 sudo pip3 install jupyter notebook

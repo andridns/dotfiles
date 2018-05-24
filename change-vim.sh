@@ -1,3 +1,4 @@
+#!/bin/bash
 vi --version | grep xterm
 sudo apt-get -y remove vim vim.tiny
 sudo apt-get update
