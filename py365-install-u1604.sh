@@ -23,6 +23,5 @@ sudo rm -rf Python-$PYTHON_VERSION
 python --version
 python3 --version
 pip3 --version
-pip --version
 
 rm ~/python.tar.tgz
