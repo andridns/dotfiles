@@ -1,0 +1,120 @@
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+sudo apt-get update
+apt-cache policy docker-ce
+sudo apt-get install -y docker-ce
+sudo systemctl status docker
+git clone https://github.com/bernardopires/twitch-chat-logger
+ls
+cd twitch-chat-logger/
+ls
+docker build -t twitch-chat-logger .
+%USER
+$USER
+echo $USER
+echo ${USER}
+sudo usermod -aG docker andrinusasmita
+su - andrinusasmita
+exit
+ls
+cd twitch-chat-logger/
+id -nG
+docker build -t twitch-chat-logger .
+docker images ls
+python
+ls
+pip
+sudo apt-get install python-pip
+pip
+sudo pip install -U fig
+fig --version
+fig up
+cd
+git clone https://github.com/andridns/dotfiles
+ls
+cd dotfiles/
+ls
+vi vimrc
+cp vimrc ~/.vimrc
+cd
+vim +PluginInstall +qall
+cd dotfiles/
+ls
+vi setup_instructions.sh 
+nano setup_instructions.sh 
+clear
+#vim
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+#copy into .vimrc first from vimsettings_v1.txt
+touch .vimrc
+# get monokai color
+git clone https://github.com/sickill/vim-monokai
+mkdir .vim/colors/
+cp vim-monokai/colors/monokai.vim .vim/colors/
+# end monokai
+ls
+rm -rf vim-monokai/
+git status
+rm .vimrc 
+git status
+cd ..
+#vim
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+#copy into .vimrc first from vimsettings_v1.txt
+touch .vimrc
+# get monokai color
+git clone https://github.com/sickill/vim-monokai
+mkdir .vim/colors/
+cp vim-monokai/colors/monokai.vim .vim/colors/
+# end monokai
+ls
+cp dotfiles/vimrc .vimrc
+ls
+cat .vimrc 
+vim +PluginInstall +qall
+cd dotfiles/
+git status
+touch myvim.sh
+vi myvim.sh 
+git status
+git add .
+git status
+git commit -am "add vim instructions"
+git config --global user.email "andridsasmita@gmail.com"
+git config --global user.name "Andri Danusasmita"
+git add .
+git commit -am "add vim instructions"
+git push
+ls
+cd
+ls
+rm -rf vim-monokai/
+rm -rf .vim/
+rm .vimrc
+vim
+vim --version
+vim
+sudo apt-get remove vim.tiny
+sudo apt-get remove vim
+sudo apt-get remove vim vim.tiny
+vim
+vi
+vim
+sudo apt-get update
+vim
+reset
+vim
+sudo apt-get install vim-gtk
+vi
+vi --version
+vim --version
+cd dotfiles/
+ls
+history >> ub1604
+ls
+vi ub1604
+history | cut -c 8- >> ub1604
+ls
+vi ub1604 
+rm ub1604 
+history | cut -c 8- >> ub1604
