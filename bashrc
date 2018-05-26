@@ -129,3 +129,5 @@ alias mkproject='mkproject --python=/usr/bin/python3'
 
 . $HOME/.bash_prompt.sh
 source /usr/local/bin/virtualenvwrapper.sh
+
+alias ssh_pi_home='ssh pi@192.168.0.105'
