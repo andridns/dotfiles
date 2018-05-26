@@ -122,6 +122,9 @@ source $HOME/.bashrc
 
 #tplink5g
 #21679834
+# 192.168.0.105
+# Interface: 169.254.61.78 --- 0x1
+# 169.254.147.116
 
 # set up jupyter on the cloud (GCP)
 # after installing jupyter notebook and jupyterlab
