@@ -131,3 +131,4 @@ alias mkproject='mkproject --python=/usr/bin/python3'
 source /usr/local/bin/virtualenvwrapper.sh
 
 alias ssh_pi_home='ssh pi@192.168.0.105'
+alias ssh_pi_homelan='ssh pi@192.168.0.106'
