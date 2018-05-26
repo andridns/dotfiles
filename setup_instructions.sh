@@ -120,22 +120,11 @@ source $HOME/.bashrc
 #if not force reinstall try
 #/usr/bin/env python3 -m pip install --user [module]
 
+#tplink5g
+#21679834
 
 # set up jupyter on the cloud (GCP)
 # after installing jupyter notebook and jupyterlab
 jupyter notebook --generate-config
 jupyter notebook password
 ipython profile create
-
-# add this to .jupyter/jupyter_notebook_config.py
-c = get_config()
-c.NotebookApp.ip = '0.0.0.0'
-c.NotebookApp.open_browser = False
-c.NotebookApp.port = 9000
-c.NotebookApp.password = u'sha1:ff62c00ede39:fbd64fc8919b1f237b7309f20bca67682bd8f075'
-
-# add this to .ipython/profile_default/ipython_config.py
-c = get_config()
-c.InteractiveShell.ast_node_interactivity = "all"
-
-
