@@ -1,0 +1,4 @@
+# +/boot/config.txt
+hdmi_ignore_edid=0xa5000080
+hdmi_group=2
+hdmi_mode=16
