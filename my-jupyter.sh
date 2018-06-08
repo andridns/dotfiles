@@ -20,4 +20,6 @@ sed -i "1ic = get_config()" .jupyter/jupyter_notebook_config.py
 # add this to .ipython/profile_default/ipython_config.py
 sed -i "1ic.InteractiveShell.ast_node_interactivity = 'all'" .ipython/profile_default/ipython_config.py
 sed -i "1ic.get_config()" .ipython/profile_default/ipython_config.py
-
+# to edit back in Jupyter
+# from IPython.core.interactiveshell import InteractiveShell
+# InteractiveShell.ast_node_interactivity = 'last_expr'
