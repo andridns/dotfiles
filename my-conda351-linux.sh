@@ -5,4 +5,5 @@ bash Anaconda3-5.1.0-Linux-x86_64.sh
 rm Anaconda3-5.1.0-Linux-x86_64.sh 
 echo 'alias condaenv='\''echo $CONDA_DEFAULT_ENV'\''' >> ~/.bashrc
 echo ". $HOME/anaconda3/etc/profile.d/conda.sh" >> ~/.bashrc
-source $HOME/.bashrc`
+source $HOME/.bashrc
+
