@@ -1,5 +1,6 @@
 #!/bin/bash
 
+sudo apt-get update && sudo apt-get upgrade
 . ~/dotfiles/py365-install-u1604.sh
 . ~/dotfiles/change-vim.sh
 . ~/dotfiles/my-vim.sh
