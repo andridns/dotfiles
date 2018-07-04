@@ -6,8 +6,8 @@
 . ~/dotfiles/my-tmux.sh
 . ~/dotfiles/add_bash_prompt.sh
 . ~/dotfiles/my-jupyter.sh
-. ~/dotfiles/docker-install-u1604.sh
+#. ~/dotfiles/docker-install-u1604.sh
 . ~/dotfiles/my-virtualenv-u1604.sh
-. ~/dotfiles/my-conda351-linux.sh
+#. ~/dotfiles/my-conda351-linux.sh
 
 
