@@ -12,7 +12,7 @@ ipython profile create
 
 # add this to .jupyter/jupyter_notebook_config.py
 echo "Adding configs into .jupyter and .ipython ..."
-sed -i "1ic.NotebookApp.port = 5000" .jupyter/jupyter_notebook_config.py
+sed -i "1ic.NotebookApp.port = 9000" .jupyter/jupyter_notebook_config.py
 sed -i "1ic.NotebookApp.open_browser = False" .jupyter/jupyter_notebook_config.py
 sed -i "1ic.NotebookApp.ip = '0.0.0.0'" .jupyter/jupyter_notebook_config.py
 sed -i "1ic = get_config()" .jupyter/jupyter_notebook_config.py
