@@ -25,9 +25,6 @@ Plugin 'jnurmine/Zenburn'
 
 call vundle#end()
 
-filetype plugin indent on    "enables filetype detection
-let g:SimpylFold_docstring_preview = 1
-
 "autocomplete
 let g:ycm_autoclose_preview_window_after_completion=1
 
