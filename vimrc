@@ -60,9 +60,6 @@ set ruler
 set wrap "Wrap lines
 set wildmenu
 set wildmode=longest:full,full
-"Configure backspace so it acts as it should act
-set backspace=eol,start,indent
-set whichwrap+=<,>,h,l
 "Ignore case when searching
 set ignorecase
 "When searching try to be smart about cases 
@@ -75,13 +72,10 @@ set incsearch
 set magic
 "Show matching brackets when text indicator is over them
 set showmatch 
-"How many tenths of a second to blink when matching brackets
-set mat=2
+
 "No annoying sound on errors
 set noerrorbells
 set novisualbell
-set t_vb=
-set tm=500
 
 "split panes
 set splitbelow
@@ -93,26 +87,7 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
-"python with virtualenv support
-python3 << EOF
-import os.path
-import sys
-import vim
-if 'VIRTUA_ENV' in os.environ:
-  project_base_dir = os.environ['VIRTUAL_ENV']
-  sys.path.insert(0, project_base_dir)
-  activate_this = os.path.join(project_base_dir,'bin/activate_this.py')
-  execfile(activate_this, dict(__file__=activate_this))
-EOF
 
-"it would be nice to set tag files by the active virtualenv here
-":set tags=~/mytags "tags for ctags and taglist
-"omnicomplete
-autocmd FileType python set omnifunc=pythoncomplete#Complete
-
-"------------Start Python PEP 8 stuff----------------
-" Number of spaces that a pre-existing tab is equal to.
-au BufRead,BufNewFile *py,*pyw,*.c,*.h set tabstop=4
 
 "Use the below highlight group when displaying bad whitespace is desired.
 highlight BadWhitespace ctermbg=red guibg=red
@@ -130,24 +105,11 @@ au BufNewFile *.py,*.pyw,*.c,*.h set fileformat=unix
 
 "Set the default file encoding to UTF-8:
 set encoding=utf-8
-set shiftwidth=4 softtabstop=4 tabstop=4 noexpandtab 
+"set shiftwidth=4 softtabstop=4 tabstop=4 noexpandtab 
 
 "For full syntax highlighting:
 let python_highlight_all=1
 syntax on
-
-"Keep indentation level from previous line:
-autocmd FileType python set autoindent
-
-"Folding based on indentation:
-autocmd FileType python set foldmethod=indent
-"use space to open folds
-nnoremap <space> za 
-"----------Stop python PEP 8 stuff--------------
-
-"js stuff"
-autocmd FileType javascript setlocal shiftwidth=2 tabstop=2
-
 
 "How can I open a NERDTree automatically when vim starts up if no files were specified?
 "Stick this in your vimrc:
@@ -163,8 +125,6 @@ map <C-n> :NERDTreeToggle<CR>
 "How can I close vim if the only window left open is a NERDTree?
 "Stick this in your vimrc:
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
-
-
 
 "NERDTress File highlighting
 function! NERDTreeHighlightFile(extension, fg, bg, guifg, guibg)
