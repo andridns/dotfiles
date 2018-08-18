@@ -1,5 +1,5 @@
 "turn on numbering
-set nu
+"set nu
 "show command in status bar
 set showcmd
 set history=1000
@@ -10,4 +10,4 @@ set wildmenu
 set wildmode=longest:full,full
 set tabstop=4
 
-colorscheme monokai
+"colorscheme monokai
