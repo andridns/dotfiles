@@ -11,4 +11,8 @@ scp -i .ssh/[PRIVATE_KEY] -r [HOSTNAME]@[STATIC_IPV4]:[HOME_REMOTE_DIR] [LOCAL_D
 # local -> server
 scp -i .ssh/[PRIVATE_KEY] -r [LOCAL_DIR] [HOSTNAME]@[STATIC_IPV4]:[HOME_REMOTE_DIR] 
 
+# connecting by ssh and RSA key
+ssh -i .ssh/[PRIVATE_KEY] [HOSTNAME]@[STATIC_IPV4]
+
+
 
