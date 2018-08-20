@@ -26,7 +26,16 @@ set ruler
 set wrap "Wrap lines
 set wildmenu
 set wildmode=longest:full,full
-set tabstop=4
+" hard tab settings (noexpanded, shift = tab)
+set noexpandtab
+set shiftwidth=4
+set softtabstop=4
+
 "set relative path at bottom
 set laststatus=2
+
+colorscheme matrix
+
+"change python tabstop
+autocmd FileType python setlocal tabstop=4
 
