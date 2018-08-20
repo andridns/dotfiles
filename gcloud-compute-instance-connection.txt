@@ -1,3 +1,5 @@
+# Creating SSH metadata
+# ssh-keygen -t rsa -f ~/.ssh/[KEY_FILENAME] -C [USERNAME]
 # copying using gcloud compute scp
 # eg: gcloud compute scp --recurse ivan@machine:/home/ivan/foo/ ~/
 # server -> local
