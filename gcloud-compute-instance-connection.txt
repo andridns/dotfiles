@@ -1,0 +1,14 @@
+# copying using gcloud compute scp
+# eg: gcloud compute scp --recurse ivan@machine:/home/ivan/foo/ ~/
+# server -> local
+gcloud compute scp --recurse [HOSTNAME]@[INSTANCE_NAME]:/home/[HOSTNAME]/[HOME_REMOTE_DIR] [LOCAL_DIR]
+# local -> server
+gcloud compute scp --recurse [LOCAL_DIR] [HOSTNAME]@[INSTANCE_NAME]:/home/[HOSTNAME]/[HOME_REMOTE_DIR]
+
+# using scp
+# server -> local
+scp -i .ssh/[PRIVATE_KEY] -r [HOSTNAME]@[STATIC_IPV4]:[HOME_REMOTE_DIR] [LOCAL_DIR]
+# local -> server
+scp -i .ssh/[PRIVATE_KEY] -r [LOCAL_DIR] [HOSTNAME]@[STATIC_IPV4]:[HOME_REMOTE_DIR] 
+
+
