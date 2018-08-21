@@ -21,6 +21,7 @@ filetype plugin indent on    " required
 syntax on
 set showcmd "show command in status bar
 set hlsearch "show matched pattern
+set ignorecase "default to case insensitive pattern search
 set history=1000
 set cursorline
 set ruler
@@ -32,7 +33,6 @@ set noexpandtab
 set shiftwidth=4
 set softtabstop=4
 set tabstop=4
-
 "set relative path at bottom
 set laststatus=2
 
