@@ -17,4 +17,9 @@ scp -i .ssh/[PRIVATE_KEY] -r [LOCAL_DIR] [HOSTNAME]@[STATIC_IPV4]:[HOME_REMOTE_D
 ssh -i .ssh/[PRIVATE_KEY] [HOSTNAME]@[STATIC_IPV4]
 
 
-
+# Managing SSH Metadata
+# requesting ssh metadata from instances
+# $ gcloud init
+# $ gcloud compute instances describe [INSTANCE_NAME] > ssh.list
+# edit ssh.list then add/remove keys
+# $ gcloud compute instances add-metadata [INSTANCE_NAME] --metadata-from-file ssh-keys=[ssh.list]
