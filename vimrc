@@ -17,9 +17,10 @@ filetype plugin indent on    " required
 
 "turn on numbering
 "set nu
-"show command in status bar
+
 syntax on
-set showcmd
+set showcmd "show command in status bar
+set hlsearch "show matched pattern
 set history=1000
 set cursorline
 set ruler
