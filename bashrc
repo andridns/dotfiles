@@ -137,3 +137,5 @@ alias ssh-pi-g-lan='ssh pi@169.254.147.116'
 alias ssh-pi-g-lan-u='ssh pi@10.42.0.78'
 alias ydl='youtube-dl -f 18 -i -o "%(upload_date)s - %(title)s.%(ext)s"'
 alias ydl22='youtube-dl -f 22 -i -o "%(upload_date)s - %(title)s.%(ext)s"'
+
+IP_U1804A="35.194.122.237"
