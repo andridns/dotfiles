@@ -1,5 +1,8 @@
 #!/bin/bash
 # installing libraries
+pip install numpy pandas matplotlib seaborn bokeh
+pip install opencv-python pillow
+pip install requests requests-html
 echo "Installing Jupyter Notebook..."
 pip install jupyter notebook
 echo "Installing Jupyter Lab..."
