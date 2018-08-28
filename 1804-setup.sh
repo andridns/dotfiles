@@ -10,3 +10,4 @@ virtualenv -p $(which python3) base
 echo "source ~/base/bin/activate" >> ~/.bashrc
 source ~/.bashrc
 . dotfiles/my-jupyter.sh
+sudo apt update && sudo apt upgrade -y
