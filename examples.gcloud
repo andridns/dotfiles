@@ -18,8 +18,9 @@ ssh -i .ssh/[PRIVATE_KEY] [HOSTNAME]@[STATIC_IPV4]
 
 
 # Managing SSH Metadata
-# requesting ssh metadata from instances
+# first setup gcloud SDK
 # $ gcloud init
+# requesting ssh metadata from specific instance
 # $ gcloud compute instances describe [INSTANCE_NAME] > ssh.list
 # edit ssh.list then add/remove keys
 # $ gcloud compute instances add-metadata [INSTANCE_NAME] --metadata-from-file ssh-keys=[ssh.list]
