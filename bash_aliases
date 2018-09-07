@@ -12,7 +12,7 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 
 # for GCP
 # alias ssh_[INSTANCE]='ssh -i .ssh/[GCP_INSTANCE_NAME] [HOSTNAME]@[STATIC_IP]'
-alias ydl='youtube-dl -f 18 -i -o "%(upload_date)s - %(title)s.%(ext)s"'
+alias ydl='youtube-dl -f 18 -i --write-auto-sub --write-sub -o "%(upload_date)s - %(title)s.%(ext)s"'
 
 # YDL
 # download per channel, sorted by upload date (YYYYMMDD)

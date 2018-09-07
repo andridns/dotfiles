@@ -6,5 +6,7 @@
 
   Subtitle Options:
     --write-auto-sub                 Write automatically generated subtitle file
-    --all-subs                       Download all the available subtitles of the
+    --write-sub						 Write default subtitle
+	--all-subs                       Download all the available subtitles of the
     --list-subs                      List all available subtitles for the video
+	
