@@ -19,3 +19,14 @@ alias ydl='youtube-dl -f 18 -i --write-auto-sub --write-sub -o "%(upload_date)s 
 # youtube-dl -f 18 -i -o "%(upload_date)s - %(title)s.%(ext)s" https://www.youtube.com/user/ArtOfTheProblem/videos
 # download playlists in channel into separate folders
 # youtube-dl -o -f 18 -i "%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLB4D701646DAF0817
+# Set personal aliases, overriding those provided by oh-my-zsh libs,
+# users are encouraged to define aliases within the ZSH_CUSTOM folder.
+# For a full list of active aliases, run `alias`.
+# Example aliases
+# alias zshconfig="mate ~/.zshrc"
+# alias ohmyzsh="mate ~/.oh-my-zsh"
+alias l="ls -lht"
+alias lss="ls -lhS"
+alias ssh_iiyama="ssh andri@192.168.10.93"
+alias ssh_pc032="ssh andri032@192.168.10.75"
+alias ssh_andrimac="ssh andri@192.168.10.142"
