@@ -100,6 +100,7 @@ alias ssh_iiyama="ssh andri@192.168.10.93"
 alias ssh_pc032="ssh andri032@192.168.10.75"
 alias ssh_andrimac="ssh andri@192.168.10.142"
 
+# POWERLEVEL CONFIGS
 # just show username
 POWERLEVEL9K_CONTEXT_TEMPLATE="%n"
 # left elements
@@ -107,8 +108,15 @@ POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context virtualenv anaconda dir)
 # right elements
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status vcs root_indicator background_jobs)
 POWERLEVEL9K_VIRTUALENV_BACKGROUND='magenta'
+# anaconda settings
+POWERLEVEL9K_ANACONDA_LEFT_DELIMITER="["
+POWERLEVEL9K_ANACONDA_RIGHT_DELIMITER="]"
+POWERLEVEL9K_ANACONDA_BACKGROUND='yellow'
 
+
+
+# append anaconda path
+export PATH="$HOME/anaconda3/bin:$PATH"
 . `brew --prefix`/etc/profile.d/z.sh
-
 source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
