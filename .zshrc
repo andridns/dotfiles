@@ -94,7 +94,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias l="ls -laht"
+alias l="ls -lht"
+alias lss="ls -lhS"
 
 # just show username
 POWERLEVEL9K_CONTEXT_TEMPLATE="%n"
