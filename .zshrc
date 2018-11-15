@@ -110,4 +110,5 @@ POWERLEVEL9K_VIRTUALENV_BACKGROUND='magenta'
 source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # IP for yumi_iiyama: 192.168.10.93
+# IP for 032: 192.168.10.75
 # IP for macbook: 192.168.10.142
