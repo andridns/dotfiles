@@ -96,6 +96,9 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias l="ls -lht"
 alias lss="ls -lhS"
+alias ssh_iiyama="ssh andri@192.168.10.93"
+alias ssh_pc032="ssh andri032@192.168.10.75"
+alias ssh_andrimac="ssh andri@192.168.10.142"
 
 # just show username
 POWERLEVEL9K_CONTEXT_TEMPLATE="%n"
@@ -109,6 +112,3 @@ POWERLEVEL9K_VIRTUALENV_BACKGROUND='magenta'
 
 source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-# IP for yumi_iiyama: 192.168.10.93
-# IP for 032: 192.168.10.75
-# IP for macbook: 192.168.10.142
