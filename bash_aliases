@@ -25,12 +25,14 @@ alias ydl='youtube-dl -f 18 -i --write-auto-sub --write-sub -o "%(upload_date)s 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias ssh_iiyama="ssh andri@192.168.10.93"
-alias ssh_pc032="ssh andri032@192.168.10.75"
-alias ssh_andrimac="ssh andri@192.168.10.142"
+
 alias l='ls -lht --color=auto'
 alias la='ls -lAh --color=auto'
 alias ll='ls -lh --color=auto'
 alias ls='ls -G --color=auto'
 alias lsa='ls -lah --color=auto'
 alias lss='ls -lhS --color=auto'
+alias ssh_andrimac='ssh andri@192.168.10.142'
+alias ssh_iiyama='ssh andri@192.168.10.93'
+alias ssh_pc032='ssh andri032@192.168.10.75'
+alias ssh_pc032lan='ssh andri032@192.168.10.61'
