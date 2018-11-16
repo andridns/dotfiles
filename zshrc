@@ -98,6 +98,7 @@ alias l="ls -lht"
 alias lss="ls -lhS"
 alias ssh_iiyama="ssh andri@192.168.10.93"
 alias ssh_pc032="ssh andri032@192.168.10.75"
+alias ssh_pc032lan="ssh andri032@192.168.10.61"
 alias ssh_andrimac="ssh andri@192.168.10.142"
 
 # POWERLEVEL CONFIGS
