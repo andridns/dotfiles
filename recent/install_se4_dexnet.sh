@@ -27,7 +27,6 @@ sudo apt-get -y install librealsense2-utils
 sudo apt-get -y install librealsense2-dev
 sudo apt-get -y install librealsense2-dbg
 
-
 # Installing modified dexnet repos from gitlab
 source /opt/ros/kinetic/setup.bash
 cd
@@ -40,6 +39,12 @@ cd ~/catkin_ws/
 catkin_make
 source devel/setup.bash
 echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
+
+# Installing yumipy (requires sudo)
+cd ~/catkin_ws/src
+git clone https://github.com/berkeleyautomation/yumipy
+cd yumipy
+sudo python setup.py develop
 
 # Making virtual environment
 sudo apt -y install python-pip virtualenv
