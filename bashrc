@@ -139,3 +139,9 @@ alias ydl='youtube-dl -f 18 -i -o "%(upload_date)s - %(title)s.%(ext)s"'
 alias ydl22='youtube-dl -f 22 -i -o "%(upload_date)s - %(title)s.%(ext)s"'
 
 IP_U1804A="35.194.122.237"
+
+# Datetime format
+export TIME_STYLE="long-iso"
+export LC_TIME="en_DK.UTF-8"
+
+
