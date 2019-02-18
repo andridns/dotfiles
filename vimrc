@@ -36,7 +36,7 @@ set tabstop=4
 "set relative path at bottom
 set laststatus=2
 
-colorscheme matrix
+"colorscheme matrix
 
 "change python tabstop
 autocmd FileType python setlocal tabstop=4
