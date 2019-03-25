@@ -144,4 +144,5 @@ IP_U1804A="35.194.122.237"
 export TIME_STYLE="long-iso"
 export LC_TIME="en_DK.UTF-8"
 
-
+# activate imwheel for faster mouse vertica scroll
+imwheel --kill
