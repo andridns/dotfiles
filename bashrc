@@ -119,30 +119,17 @@ fi
 export PATH=/usr/local/cuda-9.0/bin${PATH:+:${PATH}}
 export LD_LIBRARY_PATH=/usr/local/cuda/lib64:${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 
-export CDPATH=~/symlinks
-export WORKON_HOME=$HOME/Envs
-export PROJECT_HOME=$HOME/Proj
-export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 export PYTHONPATH=$PYTHONPATH:$HOME/tensorflow/models/research:$HOME/tensorflow/models/research/slim
 
-alias mkproject='mkproject --python=/usr/bin/python3'
-
 . $HOME/.bash_prompt.sh
-source /usr/local/bin/virtualenvwrapper.sh
 
 alias ssh-pi-h='ssh pi@192.168.0.105'
-alias ssh-pi-h-r='ssh pi@192.168.0.106'
-alias ssh-pi-p10='ssh pi@192.168.43.70'
-alias ssh-pi-g-lan='ssh pi@169.254.147.116'
-alias ssh-pi-g-lan-u='ssh pi@10.42.0.78'
 alias ydl='youtube-dl -f 18 -i -o "%(upload_date)s - %(title)s.%(ext)s"'
 alias ydl22='youtube-dl -f 22 -i -o "%(upload_date)s - %(title)s.%(ext)s"'
-
-IP_U1804A="35.194.122.237"
 
 # Datetime format
 export TIME_STYLE="long-iso"
 export LC_TIME="en_DK.UTF-8"
 
-# activate imwheel for faster mouse vertica scroll
+# activate imwheel for faster mouse vertical scroll
 imwheel --kill
