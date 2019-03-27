@@ -1,12 +1,12 @@
 {
 	"color_scheme": "Packages/ayu/ayu-mirage.sublime-color-scheme",
-	"font_size": 11,
-	"line_padding_top": 2,
-	"line_padding_bottom": 1,
+	"font_size": 10.5,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
+	"line_padding_bottom": 2,
+	"line_padding_top": 2,
 	"theme": "ayu-mirage.sublime-theme"
 }
 
