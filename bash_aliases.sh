@@ -35,4 +35,8 @@ alias ls='ls -G --color=auto'
 alias lsa='ls -lah --color=auto'
 alias lss='ls -lhS --color=auto'
 alias lsn='ls -1 | wc -l'
-alias mrblocks='cd ~/Documents/Mask_RCNN/samples/blocks/ && source ~/tf112/bin/activate'
+alias mrblocks='cd ~/Documents/Mask_RCNN/samples/blocks/
+source ~/tf112/bin/activate
+jupyter notebook
+cd ~/Documents/Mask_RCNN/'
+
