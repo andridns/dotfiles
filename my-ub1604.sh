@@ -14,6 +14,7 @@ source .bashrc
 echo "LOG: installing tldr, youtube-dl"
 pip install tldr youtube-dl
 echo "LOG: git config"
+git config --global user.email "andridsasmita@gmail.com"
 git config --global user.name "Andri Danusasmita"
 echo "LOG: installing sublime-text"
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
