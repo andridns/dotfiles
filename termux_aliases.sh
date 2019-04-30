@@ -1,0 +1,11 @@
+alias ydl='youtube-dl -f 18 -i --write-auto-sub --write-sub -o "%(upload_date)s - %(title)s.%(ext)s"'
+alias ydl22='youtube-dl -f 22 -i --write-auto-sub --write-sub -o "%(upload_date)s - %(title)s.%(ext)s"'
+alias ydlaudio='youtube-dl -f 140 -i --write-auto-sub --write-sub -o "%(upload_date)s - %(title)s.%(ext)s"'
+alias sd='cd ~/storage/external-1'
+alias joe='cd ~/storage/external-1/joe'
+
+alias l='ls -lht --color=auto'
+alias la='ls -lAh --color=auto'
+alias ll='ls -lh --color=auto'
+alias lsa='ls -lah --color=auto'
+alias lss='ls -lhS --color=auto'
