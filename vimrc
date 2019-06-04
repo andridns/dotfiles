@@ -16,8 +16,7 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 "turn on relative numbering
-set rnu
-set nu
+set nu rnu
 
 syntax on
 set showcmd "show command in status bar
