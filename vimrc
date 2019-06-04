@@ -17,6 +17,7 @@ filetype plugin indent on    " required
 
 "turn on relative numbering
 set rnu
+set nu
 
 syntax on
 set showcmd "show command in status bar
