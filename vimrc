@@ -15,8 +15,8 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
-"turn on numbering
-"set nu
+"turn on relative numbering
+set rnu
 
 syntax on
 set showcmd "show command in status bar

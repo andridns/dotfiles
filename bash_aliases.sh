@@ -7,9 +7,6 @@ alias egrep='egrep --color=auto'
 alias ydl='youtube-dl -f 18 -i --write-auto-sub --write-sub -o "%(upload_date)s - %(title)s.%(ext)s"'
 alias ydl22='youtube-dl -f 22 -i --write-auto-sub --write-sub -o "%(upload_date)s - %(title)s.%(ext)s"'
 # YDL
-alias ..="cd ../"
-alias ...="cd ../../"
-alias ....="cd ../../../"
 alias l='ls -lht --color=auto'
 alias la='ls -lAh --color=auto'
 alias ll='ls -lh --color=auto'
@@ -22,3 +19,8 @@ source ~/tf112/bin/activate
 jupyter notebook
 cd ~/Documents/Mask_RCNN/'
 
+alias ..="cd ../"
+alias ...="cd ../../"
+alias ....="cd ../../../"
+alias .....="cd ../../../../"
+alias ......="cd ../../../../../"
