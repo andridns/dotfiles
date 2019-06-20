@@ -1,0 +1,8 @@
+.ipynb_checkpoints
+.pyc
+.tox
+.pytest_cacne
+*.egg-info
+*.bak
+.DS_Store
+__pycache__
