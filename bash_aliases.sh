@@ -10,6 +10,8 @@ alias ydf='youtube-dl -F'
 alias yd='youtube-dl -f 18 -i --write-auto-sub --write-sub -o "%(upload_date)s - %(title)s.%(ext)s"'
 alias yd22='youtube-dl -f 22 -i --write-auto-sub --write-sub -o "%(upload_date)s - %(title)s.%(ext)s"'
 alias yda='youtube-dl -f 251'
+alias ydax='youtube-dl --external-downloader axel --external-downloader-args "-n 20 -a"'
+
 alias l='ls -lht --color=auto'
 alias la='ls -lAh --color=auto'
 alias ll='ls -lh --color=auto'
