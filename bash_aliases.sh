@@ -12,12 +12,12 @@ alias yd22='youtube-dl -f 22 -i --write-auto-sub --write-sub -o "%(upload_date)s
 alias yda='youtube-dl -f 251'
 alias ydax='youtube-dl --external-downloader axel --external-downloader-args "-n 20 -a"'
 
-alias l='ls -lht --color=auto'
-alias la='ls -lAh --color=auto'
-alias ll='ls -lh --color=auto'
-alias ls='ls -G --color=auto'
-alias lsa='ls -lah --color=auto'
-alias lss='ls -lhS --color=auto'
+alias l='ls -lhtp --color=auto'
+alias la='ls -lAhp --color=auto'
+alias ll='ls -lhp --color=auto'
+alias ls='ls -Gp --color=auto'
+alias lsa='ls -lahp --color=auto'
+alias lss='ls -lhSp --color=auto'
 alias lsn='ls -1 | wc -l'
 # Sample
 #alias mrblocks='cd ~/Documents/Mask_RCNN/samples/blocks/
