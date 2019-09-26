@@ -31,3 +31,6 @@ alias yda='youtube-dl -f 251'
 alias ydax='youtube-dl --external-downloader axel --external-downloader-args "-n 20 -a"'
 alias ydf='youtube-dl -F'
 alias ydl='youtube-dl -f'
+
+# opening up files from terminal
+alias open='xdg-open'
