@@ -17,7 +17,8 @@ filetype plugin indent on    " required
 
 "turn on relative numbering
 set nu rnu
-
+"https://stackoverflow.com/questions/3534028/mac-terminal-vim-will-only-use-backspace-when-at-the-end-of-a-line
+set backspace=indent,eol,start
 syntax on
 set showcmd "show command in status bar
 set hlsearch "show matched pattern
